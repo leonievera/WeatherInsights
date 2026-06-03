@@ -26,16 +26,13 @@ def print_average_temperature_by_city(weather_data: pd.DataFrame) -> None:
         print(f"- {city}: {temperature:.2f} C")
 
 
-def print_daily_precipitation_by_city(weather_data: pd.DataFrame) -> None:
-    print("\nTotal precipitation per city per day")
+def print_total_precipitation_by_city(weather_data: pd.DataFrame) -> None:
+    print("\nTotal precipitation per city over the past 7 days")
 
-    daily_data = weather_data.assign(day=weather_data["date"].dt.date)
-    precipitation_totals = (
-        daily_data.groupby(["city", "day"])["precipitation"].sum().sort_index()
-    )
+    precipitation_totals = weather_data.groupby("city")["precipitation"].sum().sort_index()
 
-    for (city, day), precipitation in precipitation_totals.items():
-        print(f"- {city} on {day}: {precipitation:.2f} mm")
+    for city, precipitation in precipitation_totals.items():
+        print(f"- {city}: {precipitation:.2f} mm")
 
 
 def print_coldest_hour(weather_data: pd.DataFrame) -> None:
@@ -58,7 +55,7 @@ def main() -> None:
         return
 
     print_average_temperature_by_city(weather_data)
-    print_daily_precipitation_by_city(weather_data)
+    print_total_precipitation_by_city(weather_data)
     print_coldest_hour(weather_data)
 
 
