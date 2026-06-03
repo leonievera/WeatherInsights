@@ -8,7 +8,6 @@ Choices:
 - I fetched the data of the past 7 days and not the forecast for 7 days.
 - When the data is saved in the CVS and values for a specific hour is missing, the row is being dropped. Later, if that data would have been used, a console message is printed, that this data is missing.
 - The data types are ensured as the following: City as a String, date as Datetime and the weather data as floats.
-- The total precipitation per city shows the precipitation per day, this shows on which days it didn't rain at all.
 Analysis:
 - The average temperature over 7 days doen't say much about the data. It could have been extremlty cold and extremly hot, but the average would say it was mild. I would say the min and max temperature per day would show more insights.
 - In general the choice of the cities is good, because there's a distance between them. If the data was fetched in real time, the weather data would have to be mapped to the local time, otherwise there would be differences between day and night like Zurich in the day and New York in the night can't be compared.
@@ -18,3 +17,4 @@ Analysis:
 - If it was customer data, I would have to make the datapipeline and process secure, so that no customer data is being leaked. If a field is referenced, it should be anonymous like customer_id and not the name. The API call needs to be more secure and the database as well.
 Improvements:
 - I would implement a loop and a try/except for the API call, so that the program doesn't crash.
+- I would impelement a graph to show the average temperatures of the different citites.
