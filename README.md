@@ -22,3 +22,8 @@ Analysis:
 Improvements:
 - I would implement a loop and a try/except for the API call, so that the program doesn't crash.
 - I would implement a graph to show the average temperatures of the different cities.
+
+How to run:
+- Install the required dependencies noted in `requirements.txt`
+- Run `weather_data_fetcher.py` to generate the CSV
+- Run `main.py` to analyze the data and see insights
