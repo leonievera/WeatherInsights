@@ -5,30 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c19d5bf-29c3-48a2-940d-f2844405cb86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/visualize.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "leonievera"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;leonievera&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/leonievera/WeatherInsights.git",
-    "accountId": "918eb200-ff54-49b8-811c-17ebb7b830d1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/leonievera/WeatherInsights.git&quot;,
+    &quot;accountId&quot;: &quot;918eb200-ff54-49b8-811c-17ebb7b830d1&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
@@ -166,7 +173,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780487983131</updated>
-      <workItem from="1780487984182" duration="2650000" />
+      <workItem from="1780487984182" duration="2937000" />
+      <workItem from="1780555684667" duration="310000" />
     </task>
     <servers />
   </component>
