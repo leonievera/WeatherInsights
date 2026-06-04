@@ -1,6 +1,7 @@
 Usage of LLM:
 - I used Codex.
-- First, I made a plan with Codex and adjusted it, until it covered everything from the assignment.
+- First, I used the API call https://api.open-meteo.com/v1/forecast and used the usage code from the API.
+- I gave that code to Codex and made a plan and adjusted it, until it covered everything from the assignment.
 - Then, Codex implemented the plan.
 - I verified the code by reading it through and run the code. 
 
